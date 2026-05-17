@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Environment files - keep .env.example but ignore .env
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE
+.idea
+*.swp
+*.swo
+
+
